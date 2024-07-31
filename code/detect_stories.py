@@ -9,6 +9,10 @@ import nltk
 # nltk.download('punkt')
 from nltk.tokenize import sent_tokenize, word_tokenize, regexp_tokenize
 
+##############################################################################################################
+# Detect stories related to racism, critical race theory, DEI, woke in the closed captioning of news with    #
+# predefined sentence boundaries                                                                             #
+##############################################################################################################
 
 class Story:
     
